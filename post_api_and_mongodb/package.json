@@ -1,0 +1,23 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "1. npm init -y 2. Create a server file 3. install express -> npm i express 4. import -> require",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "get": "nodemon get.js",
+    "post": "nodemon post.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
